@@ -1,0 +1,227 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Clgproject
+build_property.RootNamespace = Clgproject
+build_property.ProjectDir = D:\.net\Clgproject\Clgproject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\.net\Clgproject\Clgproject
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/Bankdetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXEJhbmtkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/BankEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXEJhbmtFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/Companydetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXENvbXBhbnlkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/CompanyEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXENvbXBhbnlFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/Otp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXE90cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/ProfileShow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXFByb2ZpbGVTaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ComapnyLogin/RegisterEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYXBueUxvZ2luXFJlZ2lzdGVyRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Customer/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Customer/UpdateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVXBkYXRlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Cust_Transaction/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdF9UcmFuc2FjdGlvblxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Cust_Transaction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdF9UcmFuc2FjdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Cust_Transaction/UpdateTransaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdF9UcmFuc2FjdGlvblxVcGRhdGVUcmFuc2FjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/MainSupplier/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblN1cHBsaWVyXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/MainSupplier/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblN1cHBsaWVyXEhpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/MainSupplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblN1cHBsaWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/MainSupplier/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblN1cHBsaWVyXFVwZGF0ZVByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/MainSupplier/UpdateSupplier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblN1cHBsaWVyXFVwZGF0ZVN1cHBsaWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/MainTransaction/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblRyYW5zYWN0aW9uXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/MainTransaction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblRyYW5zYWN0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/MainTransaction/UpdateTransaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblRyYW5zYWN0aW9uXFVwZGF0ZVRyYW5zYWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/OrderC/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJDXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/OrderC/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJDXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/OrderC/UpdateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJDXFVwZGF0ZU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Product/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Product/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReceiveCOrder/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2ZUNPcmRlclxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReceiveCOrder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2ZUNPcmRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReceiveCOrder/UpdateReceiveCOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2ZUNPcmRlclxVcGRhdGVSZWNlaXZlQ09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReceiveIOrder/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2ZUlPcmRlclxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReceiveIOrder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2ZUlPcmRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReceiveIOrder/UpdateReceiveIOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWl2ZUlPcmRlclxVcGRhdGVSZWNlaXZlSU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReturnCOrder/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0dXJuQ09yZGVyXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReturnCOrder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0dXJuQ09yZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReturnCOrder/UpdateReturnCOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0dXJuQ09yZGVyXFVwZGF0ZVJldHVybkNPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReturnIOrder/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0dXJuSU9yZGVyXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReturnIOrder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0dXJuSU9yZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/ReturnIOrder/UpdateReturnIOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0dXJuSU9yZGVyXFVwZGF0ZVJldHVybklPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Supplier/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Supplier/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Supplier/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Supplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Supplier/UpdateSupplier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcVXBkYXRlU3VwcGxpZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.net/Clgproject/Clgproject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1u8vz4411p

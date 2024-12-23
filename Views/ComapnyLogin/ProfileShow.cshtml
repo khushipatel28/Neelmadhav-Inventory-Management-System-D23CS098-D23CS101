@@ -1,0 +1,339 @@
+﻿@using Clgproject.Models;
+@model Clgproject.Models.ProfileView
+@{
+    Layout = null;
+}
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Inventory Management </title>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="/iCheck/skins/flat/green.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="/css/custom.min.css" rel="stylesheet">
+    <!-- jQuery custom content scroller -->
+    <link href="/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col menu_fixed">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="Dashboard" class="site_title">Inventory</a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+
+                    <!-- /menu profile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <h3>DashBoard</h3>
+                            <ul class="nav side-menu">
+                                <li>
+                                    <a href="/ComapnyLogin/Dashboard"><i class="fa fa-home"></i> Home </a>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-user"></i> Supplier <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/Supplier/Add">Add Supplier</a></li>
+                                        <li><a href="/Supplier/Index">Details Supplier</a></li>
+                                        <li><a href="/Supplier/Index">Edit Details</a></li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-users"></i> Main Supplier <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/MainSupplier/Add">Add Main Supplier</a></li>
+                                        <li><a href="/MainSupplier/Index">Details Details</a></li>
+                                        <li><a href="/MainSupplier/Index">Edit Details</a></li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-users"></i> Customer <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/Customer/Add">Add Customer</a></li>
+                                        <li><a href="/Customer/Index">Details Details</a></li>
+                                        <li><a href="/Customer/Index">Edit Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-shopping-cart"></i> inventory Order Details<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/Product/Add">Add Product</a></li>
+                                        <li><a href="/Product/Index">Details Details</a></li>
+                                        <li><a href="/Product/Index">Edit Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-reply"></i>Inventory Return Order <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/ReturnIOrder/Add">Add Return Item</a></li>
+                                        <li><a href="/ReturnIOrder/Index">Details Details</a></li>
+                                        <li><a href="/ReturnIOrder/Index">Edit Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-download"></i>Inventory Receive Order <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/ReceiveIOrder/Add">Add Receive Items</a></li>
+                                        <li><a href="/ReceiveIOrder/Index">Details Details</a></li>
+                                        <li><a href="/ReceiveIOrder/Index">Edit Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-bank"></i>Inventory Transaction Details <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/MainTransaction/Add">Add Main Transaction</a></li>
+                                        <li><a href="/MainTransaction/Index">Details Details</a></li>
+                                        <li><a href="/MainTransaction/Index">Edit Details</a></li>
+                                    </ul>
+                                </li>
+
+
+
+                                <li>
+                                    <a><i class="fa fa-shopping-cart"></i>Customer Order Details<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/OrderC/Add">Add Product</a></li>
+                                        <li><a href="/OrderC/Index">Details Details</a></li>
+                                        <li><a href="/OrderC/Index">Edit Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-reply"></i>Customer Return Order <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/ReturnCOrder/Add">Add Return Item</a></li>
+                                        <li><a href="/ReturnCOrder/Index">Details Details</a></li>
+                                        <li><a href="/ReturnCOrder/Index">Edit Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-download"></i>Customer Receive Order <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/ReceiveCOrder/Add">Add Receive Items</a></li>
+                                        <li><a href="/ReceiveCOrder/Index">Details Details</a></li>
+                                        <li><a href="/ReceiveCOrder/Index">Edit Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-bank"></i>Customer Transaction Details <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="/Cust_Transaction/Add">Add Main Transaction</a></li>
+                                        <li><a href="/Cust_Transaction/Index">Details Details</a></li>
+                                        <li><a href="/Cust_Transaction/Index">Edit Details</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+
+
+                        <a data-toggle="tooltip" data-placement="top" title="Logout" href="/ComapnyLogin/Login">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <nav class="nav navbar-nav">
+                        <ul class=" navbar-right">
+                            <li class="nav-item dropdown open" style="padding-left: 15px;">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+                                    @ViewBag.company_name
+                                </a>
+                                <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/ComapnyLogin/ProfileShow/?id=@ViewBag.id">Profile</a>
+
+                                    <a class="dropdown-item" href="/ComapnyLogin/Login"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </div>
+
+            <div class="right_col" style="display: block;min-height:1600px;">
+                <div class="col-md-12 col-sm-6  ">
+                    <h3>Profile Details</h3>
+
+                    @foreach (var ed in Model.registrations)
+                    {
+                        <form asp-action="ProfileShow" asp-controller="ComapnyLogin" method="post">
+
+                            <input type="hidden" id="id" name="id" value="@ed.id">
+
+                            <div class="form-group">
+                                <input type="text" name="company_name" class="form-control" placeholder="Company name" value="@ed.company_name" />
+                            </div>
+                            <div class="form-group">
+                                <input name="email" class="form-control" placeholder="Email" value="@ed.email" />
+                            </div>
+                            <div class="form-group mb-3">
+                                <input name="mobile_no" class="form-control" placeholder="Enter Mobile number" value="@ed.mobile_no" />
+                            </div>
+                            <div class="form-group ">
+                                <input type="password" name="pass_word" class="form-control" placeholder="Enter Password" value="@ed.pass_word" />
+                            </div>
+
+
+                            <div class="form-group">
+                                <input name="companyaddress" class="form-control" placeholder="Company Address" value="@ed.companyaddress" />
+                            </div>
+                            <div class="form-group">
+                                <input name="country" class="form-control" placeholder="Country" value="@ed.country" />
+                            </div>
+                            <div class="form-group">
+                                <input name="comapany_state" class="form-control" placeholder="State" value="@ed.comapany_state" />
+                            </div>
+                            <div class="form-group">
+                                <input name="city" class="form-control" placeholder="City" value="@ed.city" />
+                            </div>
+                            <div class="form-group">
+                                <input name="pincode" class="form-control" placeholder="Pincode" value="@ed.pincode" />
+                            </div>
+
+
+
+                            <div>
+                                <div class="form-group">
+                                    <input type="submit" asp-action="CompanyEdit" asp-controller="ComapnyLogin" value="Update" class="btn btn-primary" />
+                                </div>
+                            </div>
+
+
+                        </form>
+                    }
+                    @foreach (var ed in Model.companydetails)
+                    {
+                        <form asp-action="ProfileShow" asp-controller="ComapnyLogin" method="post">
+                            <input type="hidden" id="d_id" name="d_id" value="@ed.d_id">
+
+                            <div class="form-group">
+                                <input name="id" class="form-control" placeholder="Company Id" value="@ViewBag.id" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="gstno" class="form-control" placeholder="GST number" value="@ed.gstno" />
+                            </div>
+                            <div class="form-group">
+                                <input name="panno" class="form-control" placeholder="PAN number" value="@ed.panno" />
+                            </div>
+                            <div class="form-group mb-3">
+                                <input name="faxno" class="form-control" placeholder="FAX number" value="@ed.faxno" />
+                            </div>
+                            <div class="form-group ">
+                                <input name="offwebsite" class="form-control" placeholder="Off Website" value="@ed.offwebsite" />
+                            </div>
+                            <div class="form-group">
+                                <input name="socialmedialink" class="form-control" placeholder="Social Media Link" value="@ed.socialmedialink" />
+                            </div>
+
+
+                            <div class="form-group">
+                                <input name="other" class="form-control" placeholder="Other" value="@ed.other" />
+                            </div>
+
+
+
+                            <div>
+                                <div class="form-group">
+                                    <input type="submit" asp-action="RegisterEdit" asp-controller="ComapnyLogin" value="Update" class="btn btn-primary" />
+                                </div>
+                            </div>
+
+
+                        </form>
+
+                    }
+                    @foreach (var ed in Model.bankdetails)
+                    {
+                        <form asp-action="ProfileShow" asp-controller="ComapnyLogin" method="post">
+
+
+                            <input type="hidden" id="bank_id" name="bank_id" value="@ed.bank_id">
+
+                            <div class="form-group">
+                                <input name="id" class="form-control" placeholder="Company Id" value="@ViewBag.id" />
+                            </div>
+                            <div class="form-group">
+                                <input name="bankname" class="form-control" placeholder="Bank Name" value="@ed.bankname" />
+                            </div>
+                            <div class="form-group mb-3">
+                                <input name="customername" class="form-control" placeholder="Customer Name" value="@ed.customername" />
+                            </div>
+                            <div class="form-group ">
+                                <input name="accountno" class="form-control" placeholder="Account Number" value="@ed.accountno" />
+                            </div>
+                            <div class="form-group">
+                                <input name="ifsccode" class="form-control" placeholder="IFSC Code" value="@ed.ifsccode" />
+                            </div>
+                            <div class="form-group">
+                                <input name="branchname" class="form-control" placeholder="Branch Number" value="@ed.branchname" />
+                            </div>
+
+                            <div class="form-group">
+                                <input name="branchaddress" class="form-control" placeholder="Branch Address" value="@ed.branchaddress" />
+                            </div>
+
+
+
+                            <div>
+                                <div class="form-group">
+                                    <input type="submit" asp-action="BankEdit" asp-controller="ComapnyLogin" value="Update" class="btn btn-primary" />
+                                </div>
+                            </div>
+
+
+                        </form>
+                    }
+
+                </div>
+</div>        
+</div>
+</div>
+    <!-- jQuery -->
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="/nprogress/nprogress.js"></script>
+    <!-- jQuery custom content scroller -->
+    <script src="/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="/js/custom.min.js"></script>
+</body>
+

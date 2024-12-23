@@ -1,0 +1,66 @@
+﻿@model Clgproject.Models.Otpp;
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Inventory Management </title>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="/nprogress/nprogress.css" rel="stylesheet">
+
+    <!-- jQuery custom content scroller -->
+    <link href="/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
+
+    <!-- Custom Theme Style -->
+    <link href="/css/custom.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+</head>
+<body class="login">
+
+    <div class="login_wrapper">
+        <div class="animate form login_form">
+            <section class="login_content" >
+
+            <form method="post" asp-controller="ComapnyLogin" asp-action="Otp">
+                <h1>@ViewBag.error</h1>
+                <div class="col-md-12 col-sm-12 ">
+                        <h2>OTP For Verification</h2>
+
+                    <input type="text" asp-for="otp" class="form-control" placeholder="Enter OTP" required="" />
+                    <br />
+                    <button type="submit" class="btn btn-primary submit"  asp-action="Otp" asp-controller="ComapnyLogin">
+                        Confirm
+                    </button>
+                </div>
+
+            </form>
+            </section>
+</div>
+</div>
+
+    <!-- jQuery -->
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="/nprogress/nprogress.js"></script>
+    <!-- jQuery custom content scroller -->
+    <script src="/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="/js/custom.min.js"></script>
+
+</body>
+

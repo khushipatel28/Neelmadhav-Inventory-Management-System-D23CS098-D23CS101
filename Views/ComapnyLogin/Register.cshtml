@@ -1,0 +1,115 @@
+﻿@model Clgproject.Models.Registration;
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Inventory Management</title>
+
+    <!-- Bootstrap -->
+    <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="/fontawesome/css/font-awesome.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="/animate.css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="login">
+      
+        <div class="login_wrapper">
+            <div class="form-group">
+                <div class="animate form">
+                <section class="login_content">
+                    <form asp-action="Register" asp-controller="ComapnyLogin" method="post">    
+                        <h1>Create Account</h1>
+                        <input type="hidden" id="id" name="id" />
+                        <div class="form-group">
+                            <input type="text" asp-for="company_name" class="form-control" placeholder="Company name" />
+                            <span asp-validation-for="company_name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="email" class="form-control" placeholder="Email" />
+                            <span asp-validation-for="email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input asp-for="mobile_no" class="form-control" placeholder="Enter Mobile number" />
+                            <span asp-validation-for="mobile_no" class="text-danger"></span>
+                        </div>
+                        <div class="form-group ">
+                            <input type="password" asp-for="pass_word" class="form-control" placeholder="Enter Password" />
+                            <span asp-validation-for="pass_word" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" asp-for="confirm_pass" class="form-control" placeholder="Confirm Password" />
+                            <span asp-validation-for="confirm_pass" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <input type="companyaddress" asp-for="companyaddress" class="form-control" placeholder="Company Address" />
+                            <span asp-validation-for="companyaddress" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="country" asp-for="country" class="form-control" placeholder="Country" />
+                            <span asp-validation-for="country" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="company_state" asp-for="comapany_state" class="form-control" placeholder="State" />
+                            <span asp-validation-for="comapany_state" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="city" asp-for="city" class="form-control" placeholder="City" />
+                            <span asp-validation-for="city" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="pincode" asp-for="pincode" class="form-control" placeholder="Pincode" />
+                            <span asp-validation-for="pincode" class="text-danger"></span>
+                        </div>
+                  
+                   
+                        <div>
+                            <div class="form-group">
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="separator">
+                            <p class="change_link">
+                                Already a member ?
+                                <a asp-action="Login" class="to_register"> Log in </a>
+                            </p>
+
+                        <div class="clearfix"></div>
+                            <br />
+
+                          
+                        </div>
+                    </form>
+                </section>
+                </div>
+            </div>
+        </div>
+    
+
+</body>
+</html>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+
